@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Moonsh1ne_React/static/css/main.47baeaca.css",
-    "main.js": "/Moonsh1ne_React/static/js/main.695d1911.js",
+    "main.js": "/Moonsh1ne_React/static/js/main.86ea3b76.js",
     "static/media/Roboto.woff2": "/Moonsh1ne_React/static/media/Roboto.5df09ceadd47d11f8760.woff2",
     "static/media/Poppins-Regular.woff": "/Moonsh1ne_React/static/media/Poppins-Regular.1992bcf96623f10c9582.woff",
     "static/media/Poppins-Medium.woff": "/Moonsh1ne_React/static/media/Poppins-Medium.2f5fab6c22cc8eaa1ebb.woff",
@@ -20,10 +20,10 @@
     "static/media/sprite.symbol.svg": "/Moonsh1ne_React/static/media/sprite.symbol.9db8695ec541b71c6fae8c3b97307931.svg",
     "index.html": "/Moonsh1ne_React/index.html",
     "main.47baeaca.css.map": "/Moonsh1ne_React/static/css/main.47baeaca.css.map",
-    "main.695d1911.js.map": "/Moonsh1ne_React/static/js/main.695d1911.js.map"
+    "main.86ea3b76.js.map": "/Moonsh1ne_React/static/js/main.86ea3b76.js.map"
   },
   "entrypoints": [
     "static/css/main.47baeaca.css",
-    "static/js/main.695d1911.js"
+    "static/js/main.86ea3b76.js"
   ]
 }
