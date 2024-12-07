@@ -1,27 +1,27 @@
 import React from "react";
 import Icon from "./Icon";
-import axios from "axios";
+// import axios from "axios";
 
 
 const Contact = () => {
-    const [formData, setFormData] = React.useState({name: '', email: '', message: ''});
-    const [result, setResult] = React.useState('');
-
-    const handleChange = (e) => {
-        const {name, value} = e.target;
-        setFormData({...formData, [name]: value});
-    };
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post('http://localhost:5000/send', formData);
-            console.log(response);
-            setResult('Message sent successfully!');
-        } catch (error) {
-            setResult('An error occurred, please try again.');
-        }
-        setFormData({name: '', email: '', message: ''});
-    };
+    // const [formData, setFormData] = React.useState({name: '', email: '', message: ''});
+    // const [result, setResult] = React.useState('');
+    //
+    // const handleChange = (e) => {
+    //     const {name, value} = e.target;
+    //     setFormData({...formData, [name]: value});
+    // };
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     try {
+    //         const response = await axios.post('http://localhost:5000/send', formData);
+    //         console.log(response);
+    //         setResult('Message sent successfully!');
+    //     } catch (error) {
+    //         setResult('An error occurred, please try again.');
+    //     }
+    //     setFormData({name: '', email: '', message: ''});
+    // };
 
     return (
         <section className="contact" id="contact">
@@ -30,19 +30,19 @@ const Contact = () => {
                 <div className="contact__wrapper">
                     <div className="contact__wrapper-form">
                         <p className="contact-form__question">Have a question or want to work together?</p>
-                        <form id="contactForm" onSubmit={handleSubmit}>
+                        <form id="contactForm">
                             <label htmlFor="name">Name:</label>
-                            <input type="text" id="name" name="name" required placeholder="Name" value={formData.name} onChange={handleChange}/>
+                            <input type="text" id="name" name="name" required placeholder="Name"/>
 
                             <label htmlFor="email">Email:</label>
-                            <input type="email" id="email" name="email" required placeholder="Email" value={formData.email} onChange={handleChange}/>
+                            <input type="email" id="email" name="email" required placeholder="Email"/>
 
                             <label htmlFor="message">Message:</label>
-                            <textarea id="message" name="message" required placeholder="Your message" value={formData.message} onChange={handleChange}></textarea>
+                            <textarea id="message" name="message" required placeholder="Your message"></textarea>
 
                             <button type="submit">Send</button>
                         </form>
-                        <div id="result">{result}</div>
+                        <div id="result"></div>
                     </div>
 
                     <div className="contact-social">
