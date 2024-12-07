@@ -1,6 +1,8 @@
 import React from "react";
 import Icon from "./Icon";
 
+import myPhoto from "../assets/images/about/myPhoto.jpg";
+
 const About = () => (
     <section className="about" id="about">
         <div className="container">
@@ -9,7 +11,7 @@ const About = () => (
                 <ul className="about__priorities-list">
                     <li className="about__priorities-item">
                         <div className="about__priorities-icon">
-                            <Icon name='code' />
+                            <Icon name='code'/>
                         </div>
                         <h3 className="title-3 about__priorities-title">Code Quality</h3>
                         <p className="about__priorities-text">
@@ -18,7 +20,7 @@ const About = () => (
                     </li>
                     <li className="about__priorities-item">
                         <div className="about__priorities-icon">
-                            <Icon name='responsive' />
+                            <Icon name='responsive'/>
                         </div>
                         <h3 className="title-3 about__priorities-title">Responsive Design</h3>
                         <p className="about__priorities-text">
@@ -27,7 +29,7 @@ const About = () => (
                     </li>
                     <li className="about__priorities-item">
                         <div className="about__priorities-icon">
-                            <Icon name='fast' />
+                            <Icon name='fast'/>
                         </div>
                         <h3 className="title-3 about__priorities-title">Fast Loading</h3>
                         <p className="about__priorities-text">
@@ -36,7 +38,7 @@ const About = () => (
                     </li>
                     <li className="about__priorities-item">
                         <div className="about__priorities-icon">
-                            <Icon name='intuitive' />
+                            <Icon name='intuitive'/>
                         </div>
                         <h3 className="title-3 about__priorities-title">Intuitive UX</h3>
                         <p className="about__priorities-text">Strong preference for easy to use, intuitive UX/UI.</p>
@@ -46,9 +48,7 @@ const About = () => (
 
             <div className="about__content">
                 <div className="about__content-text">
-                    <div className="about__content-img">
-                        {/*<img src="./img/about/about.jpg" alt="Vlad Akimov" />*/}
-                    </div>
+                    <img src={myPhoto} alt="My img" className="about__content-img"/>
                     <h3 className="title-3 about__content-title">Who am I?</h3>
                     <p className="about__content-desc">
                         I'm a web developer based in Volgograd, Russia. I have a passion for web development and
