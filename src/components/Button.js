@@ -2,6 +2,7 @@ import React from "react";
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
 
 export const ButtonLink = ({children, className, href, target = '_self'}) => {
+    const relValue = target === '_blank' ? 'noopener noreferrer' : undefined;
     const buttonRef = React.useRef(null);
     const {observe, unobserve} = useIntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -18,7 +19,7 @@ export const ButtonLink = ({children, className, href, target = '_self'}) => {
     }, [observe, buttonRef]);
 
     return (
-        <a href={href} rel="noopener noreferrer" target={target}>
+        <a href={href} rel={relValue} target={target}>
             <button ref={buttonRef} className={'btn ' + className}>
                 {children}
             </button>

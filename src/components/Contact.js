@@ -28,23 +28,23 @@ const Contact = () => (
                     <h3 className="title-3 contact-social__title">Social</h3>
                     <ul className="contact-social__list">
                         <li className="contact-social__item">
-                            <a href="https://t.me/Moonsh1ne_OP" className="contact-social__link" target="_blank">
+                            <a href="https://t.me/Moonsh1ne_OP" rel='noopener noreferrer' className="contact-social__link" target="_blank">
                                 <Icon name="tg" />
                             </a>
                         </li>
                         <li className="contact-social__item">
-                            <a href="https://vk.com/moonsh1ne_vk" className="contact-social__link" target="_blank">
+                            <a href="https://vk.com/moonsh1ne_vk" rel='noopener noreferrer' className="contact-social__link" target="_blank">
                                 <Icon name="vk" />
                             </a>
                         </li>
                         <li className="contact-social__item">
-                            <a href="https://api.whatsapp.com/send/?phone=79026529773" className="contact-social__link"
+                            <a href="https://api.whatsapp.com/send/?phone=79026529773" rel='noopener noreferrer' className="contact-social__link"
                                target="_blank">
                                 <Icon name="whatsapp" />
                             </a>
                         </li>
                         <li className="contact-social__item">
-                            <a href="https://www.instagram.com/moonsh1ne_e" className="contact-social__link"
+                            <a href="https://www.instagram.com/moonsh1ne_e" rel='noopener noreferrer' className="contact-social__link"
                                target="_blank">
                                 <Icon name="instagram" />
                             </a>
