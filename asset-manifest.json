@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.87531eba.css",
-    "main.js": "/static/js/main.8043f5e7.js",
-    "static/media/Roboto.woff2": "/static/media/Roboto.5df09ceadd47d11f8760.woff2",
-    "static/media/Poppins-Regular.woff": "/static/media/Poppins-Regular.1992bcf96623f10c9582.woff",
-    "static/media/Poppins-Medium.woff": "/static/media/Poppins-Medium.2f5fab6c22cc8eaa1ebb.woff",
-    "static/media/Poppins-SemiBold.woff": "/static/media/Poppins-SemiBold.c053a7a60585d7d764e7.woff",
-    "static/media/Poppins-Bold.woff": "/static/media/Poppins-Bold.51852d271362a2574081.woff",
-    "static/media/Roboto.woff": "/static/media/Roboto.7ec96649e7fbc9ab33c9.woff",
-    "static/media/SedgwickAveDisplay-Regular.woff": "/static/media/SedgwickAveDisplay-Regular.7a31fb8dd834a93a1a4d.woff",
-    "static/media/Nunito-Bold.woff": "/static/media/Nunito-Bold.fcedc1e013cb690c1f0d.woff",
-    "static/media/SedgwickAveDisplay-Regular.woff2": "/static/media/SedgwickAveDisplay-Regular.48e4de3b7996dcd692de.woff2",
-    "static/media/Nunito-Bold.woff2": "/static/media/Nunito-Bold.e6217bcdddec90921259.woff2",
-    "static/media/Poppins-Regular.woff2": "/static/media/Poppins-Regular.88ab6d3d474de73a4374.woff2",
-    "static/media/Poppins-SemiBold.woff2": "/static/media/Poppins-SemiBold.9c050ab9a308c9f0f7f6.woff2",
-    "static/media/Poppins-Bold.woff2": "/static/media/Poppins-Bold.5740edcf572af3ee40f8.woff2",
-    "static/media/Poppins-Medium.woff2": "/static/media/Poppins-Medium.76b9103defe694977c17.woff2",
-    "static/media/hero.png": "/static/media/hero.6c9f264406663c07fba1.png",
-    "static/media/sprite.symbol.svg": "/static/media/sprite.symbol.9db8695ec541b71c6fae8c3b97307931.svg",
-    "index.html": "/index.html",
-    "main.87531eba.css.map": "/static/css/main.87531eba.css.map",
-    "main.8043f5e7.js.map": "/static/js/main.8043f5e7.js.map"
+    "main.css": "/Moonsh1ne_React/static/css/main.47baeaca.css",
+    "main.js": "/Moonsh1ne_React/static/js/main.d5768156.js",
+    "static/media/Roboto.woff2": "/Moonsh1ne_React/static/media/Roboto.5df09ceadd47d11f8760.woff2",
+    "static/media/Poppins-Regular.woff": "/Moonsh1ne_React/static/media/Poppins-Regular.1992bcf96623f10c9582.woff",
+    "static/media/Poppins-Medium.woff": "/Moonsh1ne_React/static/media/Poppins-Medium.2f5fab6c22cc8eaa1ebb.woff",
+    "static/media/Poppins-SemiBold.woff": "/Moonsh1ne_React/static/media/Poppins-SemiBold.c053a7a60585d7d764e7.woff",
+    "static/media/Poppins-Bold.woff": "/Moonsh1ne_React/static/media/Poppins-Bold.51852d271362a2574081.woff",
+    "static/media/Roboto.woff": "/Moonsh1ne_React/static/media/Roboto.7ec96649e7fbc9ab33c9.woff",
+    "static/media/SedgwickAveDisplay-Regular.woff": "/Moonsh1ne_React/static/media/SedgwickAveDisplay-Regular.7a31fb8dd834a93a1a4d.woff",
+    "static/media/Nunito-Bold.woff": "/Moonsh1ne_React/static/media/Nunito-Bold.fcedc1e013cb690c1f0d.woff",
+    "static/media/SedgwickAveDisplay-Regular.woff2": "/Moonsh1ne_React/static/media/SedgwickAveDisplay-Regular.48e4de3b7996dcd692de.woff2",
+    "static/media/Nunito-Bold.woff2": "/Moonsh1ne_React/static/media/Nunito-Bold.e6217bcdddec90921259.woff2",
+    "static/media/Poppins-Regular.woff2": "/Moonsh1ne_React/static/media/Poppins-Regular.88ab6d3d474de73a4374.woff2",
+    "static/media/Poppins-SemiBold.woff2": "/Moonsh1ne_React/static/media/Poppins-SemiBold.9c050ab9a308c9f0f7f6.woff2",
+    "static/media/Poppins-Bold.woff2": "/Moonsh1ne_React/static/media/Poppins-Bold.5740edcf572af3ee40f8.woff2",
+    "static/media/Poppins-Medium.woff2": "/Moonsh1ne_React/static/media/Poppins-Medium.76b9103defe694977c17.woff2",
+    "static/media/hero.png": "/Moonsh1ne_React/static/media/hero.6c9f264406663c07fba1.png",
+    "static/media/sprite.symbol.svg": "/Moonsh1ne_React/static/media/sprite.symbol.9db8695ec541b71c6fae8c3b97307931.svg",
+    "index.html": "/Moonsh1ne_React/index.html",
+    "main.47baeaca.css.map": "/Moonsh1ne_React/static/css/main.47baeaca.css.map",
+    "main.d5768156.js.map": "/Moonsh1ne_React/static/js/main.d5768156.js.map"
   },
   "entrypoints": [
-    "static/css/main.87531eba.css",
-    "static/js/main.8043f5e7.js"
+    "static/css/main.47baeaca.css",
+    "static/js/main.d5768156.js"
   ]
 }
