@@ -14,7 +14,7 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                    <a href="/" className="header__wrapper-logo logo">
+                    <a href="Moonsh1ne_React/" className="header__wrapper-logo logo">
                         <div className="logo__short">M</div>
                         <div className="logo__full">Moonsh1ne</div>
                     </a>
