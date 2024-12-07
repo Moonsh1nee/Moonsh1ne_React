@@ -13,7 +13,7 @@
     "sass": "^1.82.0",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Moonsh1nee.github.io",
+  "homepage": "https://Moonsh1nee.github.io/Moonsh1ne_React/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
