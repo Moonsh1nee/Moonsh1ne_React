@@ -1,0 +1,204 @@
+.works {
+    padding: $section-padding 0;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &__card {
+        background-color: $color-block-accent;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 90%;
+
+        position: relative;
+        animation: none;
+        opacity: 0;
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &.visible {
+            opacity: 1;
+            animation: slide-in-left 1s ease-in-out;
+        }
+
+        &:nth-child(even) {
+            animation: none;
+            align-self: flex-end;
+            flex-direction: row-reverse;
+
+            .btn--works-view {
+                left: 0;
+                right: auto;
+            }
+
+            &.visible {
+                animation: slide-in-right 1s ease-in-out;
+            }
+        }
+
+        picture {
+            flex-basis: 60%;
+        }
+
+        &-img {
+            display: block;
+            width: 60%;
+            object-fit: contain;
+            object-position: center;
+            border: 1px solid $color-border-grey;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba($color-border-grey, 0.5);
+        }
+
+        &-content {
+            position: relative;
+            flex-basis: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-wrap: wrap;
+
+            padding-bottom: 100px;
+        }
+
+        &-title.title-3 {
+            text-align: left;
+            font-size: 28px;
+            color: $color-accent-green;
+
+            @include media-md {
+                font-size: 24px;
+            }
+
+            @include media-sm {
+                font-size: 20px;
+            }
+        }
+
+        &-desc {
+            font-size: 15px;
+            text-align: justify;
+
+            @include media-md {
+                font-size: 14px;
+            }
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        &-item {
+            padding-left: 10px;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 9px;
+                transform: translateY(-50%);
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: $color-accent-blue;
+            }
+
+            span {
+                font-weight: 500;
+                color: $color-accent-blue;
+            }
+
+            &:nth-child(even) {
+                &::before {
+                    background-color: $color-accent-orange;
+                }
+
+                span {
+                    color: $color-accent-orange;
+                }
+            }
+
+            @include media-md {
+                font-size: 15px;
+            }
+        }
+
+        @include media-lg {
+            flex-direction: column;
+            gap: 20px;
+            max-width: 100%;
+
+            &:nth-child(even) {
+                flex-direction: column;
+                align-self: self-start;
+            }
+
+            picture {
+                flex-basis: 100%;
+            }
+
+            &-img {
+                width: 100%;
+            }
+
+            &-content {
+                flex-basis: 100%;
+
+                padding-bottom: 80px;
+            }
+        }
+
+        @include media-md {
+            &-content {
+                padding-bottom: 60px;
+            }
+        }
+    }
+
+    @include media-lg {
+        padding: $section-padding-lg 0;
+    }
+
+    @include media-md {
+        padding: $section-padding-md 0;
+    }
+
+    @include media-sm {
+        padding: $section-padding-sm 0;
+    }
+
+    @include media-xs {
+        padding: $section-padding-xs 0;
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        left: -100%;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        right: -100%;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,14 @@
+.footer {
+	background-color: $color-font-main;
+	color: $color-bg;
+	padding: 20px;
+	text-align: center;
+
+	@include media-sm {
+		font-size: 14px;
+	}
+
+	@include media-xs {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Eatly",
+    "description": "We present our restaurants and unique dishes made with love. Discover a variety of cuisines and enjoy exquisite gastronomic experiences. Each restaurant offers signature recipes and a unique atmosphere.",
+    "technologies": [
+      {"name": "HTML5", "desc": "Structuring page content for better SEO and usability."},
+      {"name": "CSS3", "desc": "Styling the site, including responsive design and animations."},
+      {"name": "SCSS", "desc": "Efficiently writing styles using variables and nesting."},
+      {"name": "JavaScript", "desc": "Adding interactivity and enhancing user experience."},
+      {"name": "Responsive Design", "desc": "Adapting the site for various devices."},
+      {"name": "Gulp", "desc": "Automating tasks like file compilation and minification."},
+      {"name": "Swiper JS", "desc": "Creating responsive sliders and carousels."}
+    ],
+    "image": "static/images/works/eatly.jpg",
+    "link": "https://moonsh1nee.github.io/Eatly/",
+    "buttonClass": "btn--bounce-left"
+  },
+  {
+    "id": 2,
+    "title": "Modimal",
+    "description": "Welcome to our site! Here, you'll find stylish and modern clothing for any occasion. We offer a wide variety of options to satisfy all your preferences. Discover new collections, exclusive offers, and inspiration to create your unique style.",
+    "technologies": [
+      {"name": "HTML5", "desc": "Structuring page content for better SEO and usability."},
+      {"name": "CSS3", "desc": "Styling the site, including responsive design and animations."},
+      {"name": "SCSS", "desc": "Efficiently writing styles using variables and nesting."},
+      {"name": "JavaScript", "desc": "Adding interactivity and enhancing user experience."},
+      {"name": "Responsive Design", "desc": "Adapting the site for various devices."},
+      {"name": "Gulp", "desc": "Automating tasks like file compilation and minification."},
+      {"name": "Swiper JS", "desc": "Creating responsive sliders and carousels."}
+    ],
+    "image": "static/images/works/modimal.jpg",
+    "link": "https://moonsh1nee.github.io/Modimal/",
+    "buttonClass": "btn--bounce-right"
+  },
+  {
+    "id": 3,
+    "title": "Robin",
+    "description": "Welcome to our website! Here, you'll find innovative solutions for app and web design, tailored to meet your unique needs. Explore our portfolio of creative and user-friendly designs, each crafted with precision and attention to detail. Whether you're looking to enhance your online presence or develop a new app, our team of experts is here to turn your vision into reality.",
+    "technologies": [
+      {"name": "HTML5", "desc": "Structuring page content for better SEO and usability."},
+      {"name": "CSS3", "desc": "Styling the site, including responsive design and animations."},
+      {"name": "SCSS", "desc": "Efficiently writing styles using variables and nesting."},
+      {"name": "JavaScript", "desc": "Adding interactivity and enhancing user experience."},
+      {"name": "Responsive Design", "desc": "Adapting the site for various devices."},
+      {"name": "Gulp", "desc": "Automating tasks like file compilation and minification."},
+      {"name": "Swiper JS", "desc": "Creating responsive sliders and carousels."}
+    ],
+    "image": "static/images/works/robin.jpg",
+    "link": "https://moonsh1nee.github.io/Robin_designer/",
+    "buttonClass": "btn--bounce-left"
+  }
+]

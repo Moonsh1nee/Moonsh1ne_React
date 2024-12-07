@@ -1,0 +1,24 @@
+/* Base */
+@import './base/reset';
+@import './base/vars';
+@import './base/mixins';
+@import './base/fontsAutoGen';
+@import './base/base';
+@import './base/utils'; // Тест на ошибку
+@import './base/containers';
+@import './base/sticky-footer';
+
+@import "./blocks/btn";
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/about";
+@import "./blocks/works";
+@import "./blocks/contact";
+@import "./blocks/footer";
+@import "./blocks/form";
+@import "./blocks/logo";
+@import "./blocks/mobile-nav";
+@import "./blocks/nav";
+@import "./blocks/nav-icon";
+@import "./blocks/titles";
+@import "./blocks/icons";

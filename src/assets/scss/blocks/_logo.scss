@@ -1,0 +1,61 @@
+.logo {
+    @include flex-center;
+    gap: 10px;
+
+    &__short {
+        font-family: $font-third;
+        font-size: 30px;
+        color: $color-bg;
+        width: 40px;
+        height: 40px;
+        background-color: $color-font-main;
+        border-radius: 6px;
+        text-align: center;
+        line-height: 45px;
+
+        @include media-lg {
+            font-size: 24px;
+            width: 30px;
+            height: 30px;
+            line-height: 35px;
+        }
+
+        @include media-sm {
+            font-size: 20px;
+            width: 25px;
+            height: 25px;
+            line-height: 30px;
+        }
+
+        @include media-xs {
+            display: none;
+        }
+    }
+
+    &__full {
+        font-family: $font-second;
+        font-weight: 600;
+        font-size: 36px;
+        color: $color-font-main;
+        text-transform: uppercase;
+
+        @include media-lg {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        @include media-sm {
+            font-size: 22px;
+            line-height: 27px;
+        }
+
+        @include media-xs {
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+
+    @include media-sm {
+        gap: 5px;
+    }
+}

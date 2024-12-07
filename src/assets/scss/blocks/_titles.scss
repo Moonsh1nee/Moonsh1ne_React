@@ -1,0 +1,52 @@
+.title-2 {
+    font-family: $font-second;
+    font-size: 32px;
+    font-weight: 700;
+    color: $color-font-main;
+    text-align: center;
+
+    margin-bottom: $title-margin-bottom;
+
+    @include media-lg {
+        font-size: 30px;
+        margin-bottom: $title-margin-bottom-lg;
+    }
+
+    @include media-md {
+        font-size: 28px;
+        margin-bottom: $title-margin-bottom-md;
+    }
+
+    @include media-sm {
+        font-size: 26px;
+        margin-bottom: $title-margin-bottom-sm;
+    }
+
+    @include media-xs {
+        font-size: 24px;
+        margin-bottom: $title-margin-bottom-xs;
+    }
+}
+
+.title-3 {
+    font-family: $font-second;
+    font-size: 22px;
+    font-weight: 600;
+    color: $color-font-main;
+    text-align: center;
+
+    @include media-lg {
+        font-size: 20px;
+    }
+
+    @include media-md {
+        font-size: 18px;
+    }
+}
+
+.title-4 {
+    font-family: $font-second;
+    font-size: 18px;
+    font-weight: 600;
+    color: $color-font-main;
+}
