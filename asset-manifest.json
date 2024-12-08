@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Moonsh1ne_React/static/css/main.3b69bc57.css",
-    "main.js": "/Moonsh1ne_React/static/js/main.0510e961.js",
+    "main.css": "/Moonsh1ne_React/static/css/main.0d86d38d.css",
+    "main.js": "/Moonsh1ne_React/static/js/main.0593cd09.js",
     "static/media/Roboto.woff2": "/Moonsh1ne_React/static/media/Roboto.5df09ceadd47d11f8760.woff2",
     "static/media/Poppins-Regular.woff": "/Moonsh1ne_React/static/media/Poppins-Regular.1992bcf96623f10c9582.woff",
     "static/media/Poppins-Medium.woff": "/Moonsh1ne_React/static/media/Poppins-Medium.2f5fab6c22cc8eaa1ebb.woff",
@@ -18,13 +18,13 @@
     "static/media/Poppins-Bold.woff2": "/Moonsh1ne_React/static/media/Poppins-Bold.5740edcf572af3ee40f8.woff2",
     "static/media/Poppins-Medium.woff2": "/Moonsh1ne_React/static/media/Poppins-Medium.76b9103defe694977c17.woff2",
     "static/media/hero.png": "/Moonsh1ne_React/static/media/hero.6c9f264406663c07fba1.png",
-    "static/media/sprite.symbol.svg": "/Moonsh1ne_React/static/media/sprite.symbol.9db8695ec541b71c6fae8c3b97307931.svg",
+    "static/media/sprite.symbol.svg": "/Moonsh1ne_React/static/media/sprite.symbol.a890374145cd9db271b134860b25fe29.svg",
     "index.html": "/Moonsh1ne_React/index.html",
-    "main.3b69bc57.css.map": "/Moonsh1ne_React/static/css/main.3b69bc57.css.map",
-    "main.0510e961.js.map": "/Moonsh1ne_React/static/js/main.0510e961.js.map"
+    "main.0d86d38d.css.map": "/Moonsh1ne_React/static/css/main.0d86d38d.css.map",
+    "main.0593cd09.js.map": "/Moonsh1ne_React/static/js/main.0593cd09.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b69bc57.css",
-    "static/js/main.0510e961.js"
+    "static/css/main.0d86d38d.css",
+    "static/js/main.0593cd09.js"
   ]
 }
