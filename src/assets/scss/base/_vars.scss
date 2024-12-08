@@ -32,14 +32,30 @@ $font-second: "Poppins", sans-serif;
 $font-third: "SedgwickAveDisplay", sans-serif;
 $font-fourth: "Nunito", sans-serif;
 
-// Color light version
-$color-font-main: #333333;
-$color-bg: #FFFFFF;
-$color-block-accent: #D3D3D3;
-$color-accent-blue: #007BFF;
-$color-accent-orange: #FF6600;
-$color-accent-green: #66BB6A;
-$color-accent-light__blue: #04C2C9;
-$color-bar-grey: #E0E0E0;
-$color-bar-blue: #00A1A7;
-$color-border-grey: #454545;
+:root {
+    --color-font-main: #333333;
+    --color-bg: #FFFFFF;
+    --color-block-accent: #D3D3D3;
+    --color-accent-blue: #007BFF;
+    --color-accent-orange: #FF6600;
+    --color-accent-green: #66BB6A;
+    --color-accent-light__blue: #04C2C9;
+    --color-bar-grey: #E0E0E0;
+    --color-bar-blue: #00A1A7;
+    --color-border-grey: #454545;
+    --color-accent-blue-hover: #0056b3;
+}
+
+.dark-theme {
+    --color-font-main: #E0E0E0;
+    --color-bg: #121212;
+    --color-block-accent: #2C2C2C;
+    --color-accent-blue: #1E90FF;
+    --color-accent-orange: #FF4500;
+    --color-accent-green: #32CD32;
+    --color-accent-light__blue: #00CED1;
+    --color-bar-grey: #4B4B4B;
+    --color-bar-blue: #4682B4;
+    --color-border-grey: #606060;
+    --color-accent-blue-hover: #5AA7FF;
+}

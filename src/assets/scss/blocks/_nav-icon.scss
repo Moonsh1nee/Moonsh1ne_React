@@ -27,7 +27,7 @@
 	position: relative;
 	width: var(--width);
 	height: var(--line-height);
-	background-color: $color-font-main;
+	background-color: var(--color-font-main);
 	border-radius: var(--radius);
 }
 
@@ -43,7 +43,7 @@
 	height: var(--line-height);
 
 	border-radius: var(--radius);
-	background-color: $color-font-main;
+	background-color: var(--color-font-main);
 	transition: transform var(--time) ease-in,
 		top var(--time) linear var(--time);
 }

@@ -1,13 +1,13 @@
 .icon {
     width: 60px;
     height: 60px;
-    fill: $color-bg;
+    fill: var(--color-bg);
 }
 
 .icon--arrow-right {
     width: 22px;
     height: 24px;
-    fill: $color-accent-blue;
+    fill: var(--color-accent-blue);
 
     padding-top: 2px;
 
@@ -32,7 +32,7 @@
 .icon--intuitive {
     width: 60px;
     height: 60px;
-    fill: $color-bg;
+    fill: var(--color-bg);
 
     @include media-md {
         width: 50px;

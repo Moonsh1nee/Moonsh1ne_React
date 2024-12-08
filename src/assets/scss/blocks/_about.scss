@@ -22,7 +22,7 @@
         &-icon {
             width: 80px;
             height: 80px;
-            background-color: $color-accent-light__blue;
+            background-color: var(--color-accent-light__blue);
             border-radius: 20%;
 
             @include flex-center;
@@ -86,7 +86,7 @@
             flex-direction: column;
             gap: 15px;
             padding: 25px;
-            background-color: $color-block-accent;
+            background-color: var(--color-block-accent);
             border-radius: 10px;
 
             max-width: 500px;
@@ -100,7 +100,6 @@
             width: 100%;
             max-width: 350px;
             height: 400px;
-            background-color: #fff;
             border-radius: 10px;
             object-fit: cover;
             object-position: top;
@@ -108,7 +107,7 @@
 
         &-title.title-3 {
             text-align: left;
-            color: $color-accent-blue;
+            color: var(--color-accent-blue);
 
             @include media-sm {
                 font-size: 1.1rem;
@@ -136,17 +135,17 @@
 
             &-item {
                 display: flex;
-                background-color: $color-bar-grey;
+                background-color: var(--color-bar-grey);
                 max-width: 500px;
 
                 .skills-text {
                     display: flex;
                     padding: 2px 10px;
-                    color: $color-bg;
+                    color: var(--color-bg);
                     font-size: 1rem;
                     font-family: $font-second;
                     font-weight: 500;
-                    background-color: $color-accent-light__blue;
+                    background-color: var(--color-accent-light__blue);
                     width: 20%;
                     justify-content: center;
 
@@ -166,7 +165,7 @@
                 }
 
                 .skills-bar {
-                    background-color: $color-bar-blue;
+                    background-color: var(--color-bar-blue);
                     width: 75%;
 
                     &--60 {

@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	background-color: $color-bg;
-	color: $color-font-main;
+	background-color: var(--color-bg);
+	color: var(--color-font-main);
 	font-family: $font-main;
 	font-size: 16px;
 	font-weight: 400;
@@ -15,5 +15,5 @@ img {
 }
 
 a {
-	color: $color-font-main;
+	color: var(--color-font-main);
 }

@@ -1,10 +1,13 @@
 import React from "react";
 import Icon from "./Icon";
 import emailjs from 'emailjs-com';
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
     const [formData, setFormData] = React.useState({name: '', email: '', message: ''});
     const [result, setResult] = React.useState('');
+
+    const { t } = useTranslation();
 
     const handleChange = (e) => {
         const {name, value} = e.target;
@@ -25,10 +28,10 @@ const Contact = () => {
     return (
         <section className="contact" id="contact">
             <div className="container">
-                <h2 className="title-2 contact__title">Contact</h2>
+                <h2 className="title-2 contact__title">{t('contactTitle')}</h2>
                 <div className="contact__wrapper">
                     <div className="contact__wrapper-form">
-                        <p className="contact-form__question">Have a question or want to work together?</p>
+                        <p className="contact-form__question">{t('contactText')}</p>
                         <form id="contactForm" onSubmit={handleSubmit}>
                             <label htmlFor="name">Name:</label>
                             <input type="text" id="name" name="name" required placeholder="Name" value={formData.name}
@@ -42,13 +45,13 @@ const Contact = () => {
                             <textarea id="message" name="message" required placeholder="Your message"
                                       value={formData.message} onChange={handleChange}></textarea>
 
-                            <button type="submit">Send</button>
+                            <button type="submit">{t('contactFormBtn')}</button>
                         </form>
                         <div id="result">{result}</div>
                     </div>
 
                     <div className="contact-social">
-                        <h3 className="title-3 contact-social__title">Social</h3>
+                        <h3 className="title-3 contact-social__title">{t('contactSocialTitle')}</h3>
                         <ul className="contact-social__list">
                             <li className="contact-social__item">
                                 <a href="https://t.me/Moonsh1ne_OP" rel='noopener noreferrer'

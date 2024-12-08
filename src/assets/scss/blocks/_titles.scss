@@ -2,7 +2,7 @@
     font-family: $font-second;
     font-size: 32px;
     font-weight: 700;
-    color: $color-font-main;
+    color: var(--color-font-main);
     text-align: center;
 
     margin-bottom: $title-margin-bottom;
@@ -32,7 +32,7 @@
     font-family: $font-second;
     font-size: 22px;
     font-weight: 600;
-    color: $color-font-main;
+    color: var(--color-font-main);
     text-align: center;
 
     @include media-lg {
@@ -48,5 +48,5 @@
     font-family: $font-second;
     font-size: 18px;
     font-weight: 600;
-    color: $color-font-main;
+    color: var(--color-font-main);
 }

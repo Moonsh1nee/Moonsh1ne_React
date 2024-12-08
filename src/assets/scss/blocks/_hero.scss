@@ -1,5 +1,5 @@
 .hero {
-    background-color: $color-block-accent;
+    background-color: var(--color-block-accent);
     @include flex-center;
     padding: 120px 0;
 
@@ -68,7 +68,7 @@
         span {
             font-size: 45px;
             font-weight: 700;
-            color: $color-accent-blue;
+            color: var(--color-accent-blue);
         }
 
         @include media-lg {
@@ -91,7 +91,7 @@
     &__title {
         span {
             font-weight: 600;
-            color: $color-accent-orange;
+            color: var(--color-accent-orange);
         }
 
         @include media-lg {

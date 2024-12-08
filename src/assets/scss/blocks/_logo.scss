@@ -5,22 +5,15 @@
     &__short {
         font-family: $font-third;
         font-size: 30px;
-        color: $color-bg;
+        color: var(--color-bg);
         width: 40px;
         height: 40px;
-        background-color: $color-font-main;
+        background-color: var(--color-font-main);
         border-radius: 6px;
         text-align: center;
         line-height: 45px;
 
         @include media-lg {
-            font-size: 24px;
-            width: 30px;
-            height: 30px;
-            line-height: 35px;
-        }
-
-        @include media-sm {
             font-size: 20px;
             width: 25px;
             height: 25px;
@@ -36,15 +29,10 @@
         font-family: $font-second;
         font-weight: 600;
         font-size: 36px;
-        color: $color-font-main;
+        color: var(--color-font-main);
         text-transform: uppercase;
 
         @include media-lg {
-            font-size: 30px;
-            line-height: 35px;
-        }
-
-        @include media-sm {
             font-size: 22px;
             line-height: 27px;
         }
@@ -55,7 +43,7 @@
         }
     }
 
-    @include media-sm {
+    @include media-lg {
         gap: 5px;
     }
 }

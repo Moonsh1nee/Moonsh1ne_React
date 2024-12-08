@@ -1,9 +1,15 @@
 import React from 'react';
 import MobileNav from "./MobileNav";
 import {ButtonLink} from "./Button";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from 'react-i18next';
+import ThemeSwitcher from "./ThemeSwitcher";
+
 
 const Header = () => {
     const [isMobileNavOpen, setIsMobileNavOpen] = React.useState(false);
+
+    const { t } = useTranslation();
 
     const togleMobileNav = () => {
         setIsMobileNavOpen(!isMobileNavOpen);
@@ -22,24 +28,30 @@ const Header = () => {
                     <nav className="header__wrapper-nav nav">
                         <ul className="nav__list">
                             <li className="nav__item">
-                                <a href="#home" className="nav__item-link">Home</a>
+                                <a href="#home" className="nav__item-link">{t('headerNavHome')}</a>
                             </li>
                             <li className="nav__item">
-                                <a href="#about" className="nav__item-link">About</a>
+                                <a href="#about" className="nav__item-link">{t('headerNavAbout')}</a>
                             </li>
                             <li className="nav__item">
-                                <a href="#works" className="nav__item-link">Works</a>
+                                <a href="#works" className="nav__item-link">{t('headerNavWorks')}</a>
                             </li>
                             <li className="nav__item">
-                                <a href="#contact" className="nav__item-link">Contact</a>
+                                <a href="#contact" className="nav__item-link">{t('headerNavContact')}</a>
                             </li>
                         </ul>
                     </nav>
 
+
                     <div className="header__btn-wrapper">
                         <ButtonLink href={'#'} className='btn--contact btn--bounce-left btn--hover-blight-dark'>
-                            Contact me
+                            {t('headerBtnContact')}
                         </ButtonLink>
+
+                        <div className="header__btn-switcher">
+                            <LanguageSwitcher />
+                            <ThemeSwitcher />
+                        </div>
 
                         <button className="mobile-nav-btn"
                                 onClick={togleMobileNav}

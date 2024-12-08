@@ -5,9 +5,14 @@
         font-family: $font-second;
         text-transform: uppercase;
 
-        @include media-lg {
+        @include media-xl {
             gap: 20px;
             font-size: 15px;
+        }
+
+        @include media-lg {
+            gap: 15px;
+            font-size: 14px;
         }
     }
 
@@ -21,7 +26,7 @@
             right: 0;
             width: 0;
             height: 1px;
-            background-color: $color-border-grey;
+            background-color: var(--color-border-grey);
             transition: width 0.3s;
         }
 
@@ -33,7 +38,7 @@
             transition: color 0.3s ease-in-out;
 
             &:hover {
-                color: $color-border-grey;
+                color: var(--color-border-grey);
             }
         }
     }

@@ -10,10 +10,10 @@
     flex-direction: column;
     align-items: center;
 	justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    // background: linear-gradient(209deg, #4287b3 -17.38%, #133f6b 78.4%), #276195;
-	background: $color-block-accent;
+	gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	background: var(--color-block-accent);
 	transition: all 0.2s ease-in;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .mobile-nav__item {
-	font-size: 24px;
+	font-size: 22px;
 
 	position: relative;
 
@@ -43,7 +43,7 @@
 		right: 0;
 		width: 0;
 		height: 1px;
-		background-color: $color-border-grey;
+		background-color: var(--color-border-grey);
 		transition: width 0.3s;
 	}
 
@@ -55,7 +55,11 @@
 		transition: color 0.3s ease-in-out;
 
 		&:hover {
-			color: $color-border-grey;
+			color: var(--color-border-grey);
 		}
+	}
+
+	@media (max-height: 400px) {
+		font-size: 18px;
 	}
 }

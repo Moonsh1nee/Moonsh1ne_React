@@ -1,5 +1,5 @@
 .header {
-	background-color: $color-block-accent;
+	background-color: var(--color-block-accent);
 	padding: 15px 0;
 	position: fixed;
 	top: 0;
@@ -26,5 +26,21 @@
 
 	@include media-lg {
 		padding: 10px 0;
+	}
+}
+
+.header__btn-switcher {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+
+	@include media-md {
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	@include media-sm {
+		flex-direction: column;
+		gap: 5px;
 	}
 }
